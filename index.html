@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manikandan R | Lead UX/UI Designer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Fixed Fullscreen Canvas Background for Scroll Animation -->
+  <canvas id="hero-canvas"></canvas>
+
+  <!-- Subtle Black Transparent Overlay Layer (between Canvas & Content) -->
+  <div class="bg-overlay"></div>
+
+  <!-- Preloader Progress Bar -->
+  <div id="loader" class="loader-container">
+    <div class="loader-bar-bg">
+      <div id="loader-bar" class="loader-bar"></div>
+    </div>
+    <div id="loader-text" class="loader-text">Loading 0%</div>
+  </div>
+
+  <!-- Floating Glass Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar glass-card">
+      <a href="#hero" class="nav-brand">Manikandan<span>.R</span></a>
+      <div class="nav-links">
+        <a href="#summary">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#impact">Impact</a>
+        <a href="#education">Education</a>
+        <a href="#speaking">Teaching</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+        <a href="Manikandan_Rajendran_Resume.pdf" download class="btn-nav btn-nav-download">📄 Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content Wrapper Overlaying Canvas -->
+  <main class="content-wrapper">
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+      <div class="glass-card hero-card">
+        <div class="badge-pill">Lead UX / UI Designer • 10+ Years Experience</div>
+        <h1 class="hero-title">Manikandan R</h1>
+        <p class="hero-tagline">
+          Lead UX / UI Designer &nbsp;|&nbsp; Design Systems &nbsp;·&nbsp; Product Strategy &nbsp;·&nbsp; Research-Led
+          Design
+        </p>
+        <div class="meta-info">
+          <span>📍 Bangalore, India</span>
+          <span>📞 +91 97894 64148</span>
+          <span>✉️ manikandanmasscom.mk@gmail.com</span>
+        </div>
+        <div class="hero-actions">
+          <a href="Manikandan_Rajendran_Resume.pdf" download class="btn btn-primary">📥 Download Resume</a>
+          <a href="https://linkedin.com/in/manikandan-rajendran-461512194/" target="_blank" rel="noopener"
+            class="btn btn-secondary">LinkedIn Profile</a>
+          <a href="https://dribbble.com/Raja02" target="_blank" rel="noopener" class="btn btn-secondary">Dribbble
+            Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Summary -->
+    <section id="summary" class="section">
+      <div class="glass-card section-card">
+        <div class="section-header align-left">
+          <h2 class="section-title">Professional Summary</h2>
+        </div>
+        <p class="summary-text">
+          Results-driven <strong>Lead UX/UI Designer</strong> with 10+ years of experience delivering end-to-end product
+          design for web and mobile platforms across <strong>e-commerce, utilities, healthcare, and B2B SaaS</strong>.
+          Expert in user research, interaction design, and scalable design systems that reduce engineering overhead and
+          accelerate delivery. Proven leader who mentors designers, facilitates stakeholder workshops, and translates
+          complex business requirements into intuitive, accessible user experiences. Deep fluency in Figma, Design
+          Tokens, and component-driven workflows — consistently bridging the gap between design vision and engineering
+          execution.
+        </p>
+      </div>
+    </section>
+
+    <!-- Impact Highlights -->
+    <section id="impact" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Impact Highlights</h2>
+        <p class="section-desc">Quantifiable design outcomes and engineering efficiency gains</p>
+      </div>
+      <div class="grid grid-3 stats-grid">
+        <div class="glass-card stat-card">
+          <div class="stat-number">40%</div>
+          <div class="stat-label">Handoff Friction Reduction</div>
+          <p class="stat-desc">Reduced design-to-dev handoff friction by implementing structured component libraries,
+            design tokens, and annotated spec docs.</p>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number">60%</div>
+          <div class="stat-label">Less Redundant Work</div>
+          <p class="stat-desc">Architected 50+ component Design System in Figma, cutting redundant design work across 4
+            enterprise products.</p>
+        </div>
+        <div class="glass-card stat-card">
+          <div class="stat-number">28%</div>
+          <div class="stat-label">Task Completion Improvement</div>
+          <p class="stat-desc">Introduced structured user research practice improving task completion rates across 3 key
+            user flows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-desc">10+ years of proven UX leadership and product delivery</p>
+      </div>
+      <div class="experience-list">
+
+        <!-- Job 1 -->
+        <div class="glass-card job-card highlight-job">
+          <div class="job-header">
+            <div>
+              <span class="job-date">Jun 2021 – Present</span>
+              <h3 class="job-title">Lead UX / UI Designer</h3>
+              <h4 class="job-company">Dalvkot Utility Enterprises Pvt. Ltd. &nbsp;·&nbsp; <span>Bangalore</span></h4>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li><strong>Architected and owns a company-wide Design System</strong> (50+ components) in Figma, enabling
+              consistent UI delivery across 4 Dalvkot Group products and reducing redundant design work by 60%.</li>
+            <li><strong>Reduced design-to-development handoff friction by 40%</strong> by implementing structured
+              component libraries, design tokens, and annotated spec documentation — eliminating recurring
+              back-and-forth with engineering.</li>
+            <li><strong>Led end-to-end UX for a utility dashboard serving 200,000+ users</strong> — from stakeholder
+              discovery workshops and user interviews through wireframes, interactive prototypes, and WCAG 2.1
+              AA-compliant final UI.</li>
+            <li><strong>Introduced user research practice</strong> (surveys, usability testing, card sorting) that
+              improved task completion rates by 28% across 3 key user flows.</li>
+            <li><strong>Mentored 3 junior designers</strong> through structured reviews, pair design sessions, and
+              skills workshops — 2 promoted to mid-level roles within 18 months.</li>
+            <li><strong>Collaborated cross-functionally</strong> with product managers, developers, and C-suite to align
+              design direction with business KPIs and quarterly OKRs.</li>
+          </ul>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="glass-card job-card">
+          <div class="job-header">
+            <div>
+              <span class="job-date">Mar 2020 – Jun 2021</span>
+              <h3 class="job-title">UX / UI Designer</h3>
+              <h4 class="job-company">Bdiapers Pvt. Ltd. &nbsp;·&nbsp; <span>Bangalore</span></h4>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li><strong>Owned end-to-end UX</strong> for a mobile-first e-commerce platform and a B2B insurance product,
+              conducting bi-monthly usability tests with 10–15 participants per sprint cycle.</li>
+            <li><strong>Redesigned the mobile checkout flow</strong> — reducing drop-off rate by 22% and increasing
+              checkout completion by 18% through iterative A/B testing and heuristic evaluation.</li>
+            <li><strong>Delivered fully responsive, WCAG 2.1 AA-compliant interfaces</strong> across iOS, Android, and
+              web, tested with assistive technologies including VoiceOver and TalkBack.</li>
+            <li><strong>Created and maintained a shared Figma component library</strong> used by a 4-person
+              cross-functional team, cutting design production time by 35%.</li>
+          </ul>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="glass-card job-card">
+          <div class="job-header">
+            <div>
+              <span class="job-date">Apr 2018 – Mar 2020</span>
+              <h3 class="job-title">Web Designer</h3>
+              <h4 class="job-company">Spi Global Pvt. Ltd. &nbsp;·&nbsp; <span>Chennai</span></h4>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li><strong>Designed performance-oriented WordPress product UIs</strong> for 12+ enterprise clients in
+              publishing, legal, and pharmaceutical sectors.</li>
+            <li><strong>Facilitated stakeholder interviews and requirements workshops</strong>, translating business
+              objectives into wireframes and high-fidelity prototypes with documented UX rationale.</li>
+            <li><strong>Reduced page load time by 30%</strong> on a flagship product through design-driven optimisation
+              of image assets, layout simplification, and component consolidation.</li>
+          </ul>
+        </div>
+
+        <!-- Job 4 -->
+        <div class="glass-card job-card">
+          <div class="job-header">
+            <div>
+              <span class="job-date">Oct 2015 – Apr 2018</span>
+              <h3 class="job-title">UI / UX Designer</h3>
+              <h4 class="job-company">Studio High Pvt. Ltd. &nbsp;·&nbsp; <span>Mumbai</span></h4>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li><strong>Delivered 20+ mobile app and web design projects</strong> in a fast-paced agency environment,
+              consistently meeting tight deadlines with high-fidelity deliverables.</li>
+            <li><strong>Championed accessibility and code-quality standards</strong>, ensuring all design outputs met
+              performance and WCAG compliance benchmarks.</li>
+            <li><strong>Collaborated closely with front-end developers</strong>, producing detailed handoff specs that
+              reduced implementation errors by an estimated 25%.</li>
+          </ul>
+        </div>
+
+        <!-- Job 5 -->
+        <div class="glass-card job-card">
+          <div class="job-header">
+            <div>
+              <span class="job-date">Oct 2013 – Apr 2015</span>
+              <h3 class="job-title">Web / Graphic Designer</h3>
+              <h4 class="job-company">Mukesh Technologies &nbsp;·&nbsp; <span>Chennai</span></h4>
+            </div>
+          </div>
+          <ul class="job-bullets">
+            <li><strong>Designed digital and print assets</strong> — web UIs, banners, brochures, and posters — for
+              clients in healthcare, finance, and education verticals.</li>
+            <li><strong>Built a consistent visual identity system</strong> for 5 SME clients, encompassing brand
+              guidelines, typography, and colour systems.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Core Skills -->
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Core Skills & Expertise</h2>
+        <p class="section-desc">Comprehensive toolkit across UX research, design systems, and software</p>
+      </div>
+      <div class="grid grid-2">
+
+        <div class="glass-card skill-group">
+          <h3>🧠 UX & Strategy</h3>
+          <div class="skills-flex">
+            <span class="chip">User Research</span>
+            <span class="chip">UX Strategy</span>
+            <span class="chip">Information Architecture</span>
+            <span class="chip">Interaction Design</span>
+            <span class="chip">Usability Testing</span>
+            <span class="chip">A/B Testing</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group">
+          <h3>🎨 UI & Visual Design</h3>
+          <div class="skills-flex">
+            <span class="chip">Design Systems</span>
+            <span class="chip">Component Libraries</span>
+            <span class="chip">Responsive Design</span>
+            <span class="chip">Accessibility (WCAG 2.1)</span>
+            <span class="chip">Motion Design</span>
+            <span class="chip">Visual Design</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group">
+          <h3>⚙️ Process & Workflows</h3>
+          <div class="skills-flex">
+            <span class="chip">Wireframing</span>
+            <span class="chip">Prototyping</span>
+            <span class="chip">Design Tokens</span>
+            <span class="chip">Stakeholder Workshops</span>
+            <span class="chip">Design Reviews</span>
+            <span class="chip">Cross-functional Collaboration</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-group">
+          <h3>🛠️ Design & Media Tools</h3>
+          <div class="skills-flex">
+            <span class="chip">Figma</span>
+            <span class="chip">Adobe XD</span>
+            <span class="chip">Framer</span>
+            <span class="chip">Sketch</span>
+            <span class="chip">Adobe Illustrator</span>
+            <span class="chip">Photoshop</span>
+            <span class="chip">InDesign</span>
+            <span class="chip">Premiere Pro</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Domain Expertise -->
+      <div class="glass-card domain-card">
+        <h3>🏢 Industry Domains</h3>
+        <div class="skills-flex">
+          <span class="chip chip-domain">B2B SaaS</span>
+          <span class="chip chip-domain">E-commerce</span>
+          <span class="chip chip-domain">Utility Platforms</span>
+          <span class="chip chip-domain">Mobile Apps</span>
+          <span class="chip chip-domain">Healthcare UI</span>
+          <span class="chip chip-domain">Insurance Products</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Training -->
+    <section id="education" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Education & Certifications</h2>
+        <p class="section-desc">Academic foundation and continuous learning credentials</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="glass-card edu-card">
+          <span class="edu-year">2014</span>
+          <h3>MPhil – Mass Communication</h3>
+          <h4>Pondicherry University</h4>
+          <p>Advanced research in mass communication, digital media platforms, and user perception.</p>
+        </div>
+        <div class="glass-card edu-card">
+          <span class="edu-year">2011 – 2013</span>
+          <h3>MA – Mass Communication</h3>
+          <h4>Pondicherry University</h4>
+          <p>Comprehensive study of media, communication theory, visual storytelling, and digital content.</p>
+        </div>
+        <div class="glass-card edu-card">
+          <span class="edu-year">2008 – 2010</span>
+          <h3>BSc – Visual Communication</h3>
+          <h4>Acharya Arts & Science College</h4>
+          <p>Core foundation in visual communication, graphic design, photography, and layout principles.</p>
+        </div>
+      </div>
+
+      <!-- Training List -->
+      <div class="glass-card cert-card">
+        <h3>📜 Training & Certifications</h3>
+        <ul class="cert-list">
+          <li><strong>UX Applied to Product Design</strong> — Bridge UX Academy (2018–2020)</li>
+          <li><strong>Product Design, Wireframing, Prototyping & User Research</strong> — Bridge UX Academy</li>
+          <li><strong>Accessibility & Inclusive Design</strong> — Self-directed continuous learning</li>
+          <li><strong>Web Design & Frontend Fundamentals</strong> — Self-directed continuous learning</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Speaking & Teaching & Languages -->
+    <section id="speaking" class="section">
+      <div class="grid grid-2">
+
+        <div class="glass-card speak-card">
+          <h3>🎤 Speaking & Teaching</h3>
+          <ul class="speak-list">
+            <li><strong>Delivered synchronous & asynchronous UX design courses</strong> at Bridge UX Academy (2018–2020)
+              — covering user research methods, wireframing, prototyping, and product thinking for 100+ learners.</li>
+            <li><strong>Guest speaker and workshop facilitator</strong> at Pondicherry University design programs —
+              topics include UX process, design systems, and career pathways in product design.</li>
+            <li><strong>Internal design advocacy:</strong> runs quarterly design thinking workshops at Dalvkot to foster
+              UX culture across non-design teams.</li>
+          </ul>
+        </div>
+
+        <div class="glass-card lang-card">
+          <h3>🗣️ Languages</h3>
+          <div class="lang-grid">
+            <div class="lang-item">
+              <span class="lang-name">Tamil</span>
+              <span class="lang-level">Native</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Professional</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">Hindi</span>
+              <span class="lang-level">Conversational</span>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">French</span>
+              <span class="lang-level">Basic</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Let's Connect & Download Resume -->
+    <section id="contact" class="section contact-section">
+      <div class="glass-card contact-card">
+        <div class="contact-header">
+          <h2>Let's Connect</h2>
+          <p>Open for Lead UX/UI opportunities, design system architecture, and strategic product advisory.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <p class="phone">📱 Mobile: +91 97894 64148</p>
+            <p class="email">✉️ Email: manikandanmasscom.mk@gmail.com</p>
+            <p class="address">📍 Location: Bangalore, India</p>
+          </div>
+          <div class="contact-links">
+            <h3>Online Profiles & Resume</h3>
+            <p>Explore my portfolio work and download full PDF resume format.</p>
+            <div class="social-buttons">
+              <a href="Manikandan_Rajendran_Resume.pdf" download class="btn btn-primary btn-download-hero">📥 Download
+                Resume</a><br><br>
+              <a href="https://linkedin.com/in/manikandan-rajendran-461512194/" target="_blank" rel="noopener"
+                class="btn btn-secondary">LinkedIn</a>
+              <a href="https://dribbble.com/Raja02" target="_blank" rel="noopener"
+                class="btn btn-secondary">Dribbble</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Manikandan R • Lead UX/UI Designer • Canvas Smooth Scroll Experience</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
