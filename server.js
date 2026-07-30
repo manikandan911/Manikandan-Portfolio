@@ -10,6 +10,7 @@ const MIME_TYPES = {
   '.css': 'text/css; charset=utf-8',
   '.js': 'application/javascript; charset=utf-8',
   '.png': 'image/png',
+  '.webp': 'image/webp',
   '.jpg': 'image/jpeg',
   '.json': 'application/json',
   '.ico': 'image/x-icon',
@@ -45,7 +46,7 @@ const server = http.createServer((req, res) => {
       'Content-Length': stats.size,
     };
 
-    if (ext === '.png') {
+    if (ext === '.png' || ext === '.webp') {
       headers['Cache-Control'] = 'public, max-age=31536000, immutable';
     }
 

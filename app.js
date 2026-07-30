@@ -20,7 +20,7 @@ const ease = 0.08; // Easing factor for silky-smooth scroll animation interpolat
 
 function getFrameUrl(index) {
   const padIndex = String(index).padStart(3, '0');
-  return `${IMAGE_DIR}/${FILE_PREFIX}${padIndex}.png`;
+  return `${IMAGE_DIR}/${FILE_PREFIX}${padIndex}.webp`;
 }
 
 // Preload images with batch concurrency
