@@ -145,7 +145,7 @@ canvas#hero-canvas {
 }
 
 .nav-brand span {
-  color: #333333;
+  color: #ffffff;
 }
 
 .nav-links {
@@ -239,7 +239,7 @@ h4 {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(96, 165, 250, 0.5);
   border-radius: 30px;
-  color: #93c5fd;
+  color: #ffffff;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -341,7 +341,7 @@ h4 {
 }
 
 .summary-text strong {
-  color: #333333;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -409,7 +409,7 @@ h4 {
 .job-date {
   font-size: 0.88rem;
   font-weight: 800;
-  color: #333333;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -452,7 +452,7 @@ h4 {
   position: absolute;
   left: 4px;
   top: -1px;
-  color: #333333;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
@@ -514,7 +514,7 @@ h4 {
 .edu-year {
   font-size: 0.85rem;
   font-weight: 800;
-  color: #f472b6;
+  color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 8px;
   display: block;
@@ -626,7 +626,7 @@ h4 {
 .lang-level {
   font-size: 0.85rem;
   font-weight: 700;
-  color: #c084fc;
+  color: #ffffff;
 }
 
 /* Contact Section */
